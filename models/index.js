@@ -8,8 +8,8 @@ const nailSchema = require('./nail')
 const Art = mongoose.model('Brand', artSchema)
 const Painting = mongoose.model('Feature', paintingSchema)
 const Cart = mongoose.model('Cart', cartSchema)
-const Nail = mongoose.model('Model', nailSchema)
-const Ceramic = mongoose.model('Model', ceramicSchema)
+const Nail = mongoose.model('Nail', nailSchema)
+const Ceramic = mongoose.model('Ceramic', ceramicSchema)
 
 
 module.exports = {

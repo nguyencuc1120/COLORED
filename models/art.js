@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const artSchema = new Schema({
-       artTypes: {
+       artType: {
             type: String, 
             required: true
       }, 
