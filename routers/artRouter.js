@@ -1,5 +1,5 @@
 const Router = require('express').Router()
-const controller = require('../controllers/brandController')
+const controller = require('../controllers/artController')
 
 Router.get('/', controller.findArts) // api/models
 Router.get('/:id', controller.findArtById) // api/models/"id"

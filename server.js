@@ -1,7 +1,7 @@
 const express = require('express')
 const db = require('./db')
 const PORT = process.env.PORT || 3001
-const AppRouter = require('./routes/appRouter')
+const AppRouter = require('./routers/appRouter')
 const landingPage = require('./controllers/artController')
 const cors = require('cors')
 
