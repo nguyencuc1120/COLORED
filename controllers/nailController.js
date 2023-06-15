@@ -1,4 +1,4 @@
-const { Nail } = require('../models')
+const { Nail, Art } = require('../models')
 
 const findNails = async (req, res) => {
       try{

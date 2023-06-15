@@ -1,8 +1,8 @@
-const { Painting } = require('../models')
+const { Painting, Art } = require('../models')
 
 const findPaintings = async (req, res) => {
       try{
-          const Painting = await Painting.find()
+          const painting = await Painting.find()
           if(!painting) throw Error ('Painting not found')
           res.status(200).json(painting)
       } catch (e) {

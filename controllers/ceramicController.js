@@ -1,4 +1,4 @@
-const { Ceramic } = require('../models')
+const { Ceramic,Art } = require('../models')
 
 const findCeramics = async (req, res) => {
       try{

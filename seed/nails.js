@@ -8,21 +8,21 @@ const main = async () => {
     const nails = await Art.find({artType:'Nail Art'})
     const nItems =[
         {
-            image: "../front/images/nail1.jpeg",  
-            art_id: nails[0]._id
+            image: "./images/nail1.jpeg",  
+            art_id: nails._id
         },
         {
-            image: "../front/images/nail2.jpeg", 
-            art_id: nails[0]._id
+            image: "./images/nail2.jpg", 
+            art_id: nails._id
         },
         {
-            image: "../front/images/nail3.jpeg",  
-            art_id: nails[0]._id
+            image: "./images/nail3.jpg",  
+            art_id: nails._id
         },
 
     ]
 
-  await nail.insertMany(nItems)
+  await Nail.insertMany(nItems)
   console.log('Created nItems')
 }
 const run = async () => {

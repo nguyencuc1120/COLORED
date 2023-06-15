@@ -12,10 +12,10 @@
 } */
 
 body {
-    background-image: url('');
-    background-size: cover;
+    background-image: url('images/bgpj2.jpg');
+    background-size:cover;
     background-repeat: no-repeat;
-    border-top: solid rgb(81, 81, 81) 10px;
+    /* border-top: solid rgb(81, 81, 81) 10px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,11 +25,13 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    background-image: linear-gradient(to right,rgb(120, 120, 120),rgba(255, 255, 255, 0));
-    background-size: cover;
-    opacity: (to right, 40%, 100%);
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    /* justify-content: space-between; */
+    /* color: antiquewhite; */
+    /* background-image: linear-gradient(to right,rgb(120, 120, 120),rgba(255, 255, 255, 0)); */
+    /* background-size: cover;
+    opacity: (to right, 40%, 100%); */
+    /* padding: 20px; */
 }
 
 
@@ -47,13 +49,14 @@ nav {
 .mainTitle {
     display: flex;
     align-items: center;
+    background-color: rgb(255, 255, 255);
 }
 
-.title-image {
+/* .title-image {
     opacity: 80%;
     padding: 10px;
     margin-top: 10px;
-}
+} */
 
 /* .title-logo {
     max-width: 150px;
@@ -68,15 +71,19 @@ nav {
 
 
 /* searchbar */
+/* .top-buttons{
+    display: flex;
+} */
+
 .searchBar-container{
     display: flex;
     background-color: rgb(120, 120, 120);
     align-self: center;
-    padding: 17px;
+    /* padding: 17px; */
     margin-left: 40px;
     background-size: 50px, 100px;
-    border: 1px solid white;
-    border-radius: 10px;
+    /* border: 1px solid white;
+    border-radius: 10px; */
     opacity: 80%;
     
 }
@@ -175,116 +182,94 @@ nav {
   cursor: pointer;
   font-size: 32px;
 }
+.paintingimg{
+    max-width:400px
+}
+.ceramicimg{
+    max-width:400px
+}
+.nailimg{
+    max-width:300px
+}
 
 
 
 
-
-/* logos */
-/* .logo-container {
+#painting-button{
     display: flex;
     justify-content: space-around;
     position: relative;
     margin-top: 100px;
-    background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0));
+    /* background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0)); */
     background-size: cover;
-    border-top: solid rgb(190, 190, 190) 3px;
-    
-} */
-
-/* .logo-button {
+    /* border-top: solid rgb(190, 190, 190) 3px; */
+/* 
     box-shadow: 8x;
     border: solid rgb(98, 98, 98) 4px;
     border-radius: 10px;
     padding: 60px 220px;
     margin: 20px;
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
-    transition: padding ease-out 500ms;
-
-} */
-
-/* .logo-button:hover {
-    border-color: rgba(255, 255, 255, 0.804);
-    padding: 80px 280px;
-    cursor: url('images/photo-cursor.png'), pointer;
-    transition: padding ease-out 500ms;
-    
-} */
-
-#painting-button:hover{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    margin-top: 100px;
-    background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0));
-    background-size: cover;
-    border-top: solid rgb(190, 190, 190) 3px;
-
-    box-shadow: 8x;
-    border: solid rgb(98, 98, 98) 4px;
-    border-radius: 10px;
-    padding: 60px 220px;
-    margin: 20px;
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
-    transition: padding ease-out 500ms;
+    transition: padding ease-out 500ms; */
     /* background-image: url("images/Canon-Logo.jpg"); */
-    background-color: rgb(69, 69, 28);
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-size: cover;
-    border-color: rgba(255, 255, 255, 0.804);
+    /* border-color: rgba(255, 255, 255, 0.804);
     padding: 80px 280px;
     cursor: url('images/photo-cursor.png'), pointer;
-    transition: padding ease-out 500ms;
+    transition: padding ease-out 500ms; */
 }
-#ceramic-button:hover {
+#ceramic-button {
     display: flex;
     justify-content: space-around;
     position: relative;
     margin-top: 100px;
-    background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0));
+    /* background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0)); */
     background-size: cover;
-    border-top: solid rgb(190, 190, 190) 3px;
+    /* border-top: solid rgb(190, 190, 190) 3px; */
 
-    box-shadow: 8x;
+    /* box-shadow: 8x;
     border: solid rgb(98, 98, 98) 4px;
     border-radius: 10px;
     padding: 60px 220px;
-    margin: 20px;
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
-    transition: padding ease-out 500ms;
+    margin: 20px; */
+    /* box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
+    transition: padding ease-out 500ms; */
     /* background-image: url("images/Sony-Logo.jpg"); */
-    background-color: rgb(69, 69, 28);
+    background-color: rgb(255, 255, 255);
     background-position: center;
-    background-size: cover;
-    border-color: rgba(255, 255, 255, 0.804);
+    background-size: cover; 
+    /* border-color: rgba(255, 255, 255, 0.804);
     padding: 80px 280px;
     cursor: url('images/photo-cursor.png'), pointer;
-    transition: padding ease-out 500ms;
+    transition: padding ease-out 500ms;  */
 }
-#nail-button:hover {
+
+#nail-button{
     display: flex;
     justify-content: space-around;
     position: relative;
     margin-top: 100px;
-    background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0));
-    background-size: cover;
-    border-top: solid rgb(190, 190, 190) 3px;
+    /* background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0)); */
+    /* background-size: cover;
+    border-top: solid rgb(190, 190, 190) 3px; */
 
-    box-shadow: 8x;
+    /* box-shadow: 8x;
     border: solid rgb(98, 98, 98) 4px;
     border-radius: 10px;
     padding: 60px 220px;
     margin: 20px;
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
-    transition: padding ease-out 500ms;
+    transition: padding ease-out 500ms; */
     /* background-image: url("images/Nikon-Logo.jpg"); */
-    background-color: rgb(69, 69, 28);
+    background-color: rgb(255, 255, 255);
     background-position: center;
-    background-size: cover;
-    border-color: rgba(255, 255, 255, 0.804);
+    /* background-size: cover; */
+    /*border-color: rgba(255, 255, 255, 0.804);
     padding: 80px 280px;
     cursor: url('images/photo-cursor.png'), pointer;
-    transition: padding ease-out 500ms;
+    transition: padding ease-out 500ms; */
 }
 
 
@@ -293,23 +278,31 @@ nav {
 /* brand stuff */
 .art-info {
     /* background-image: linear-gradient(to top, white, rgb(98, 98, 98)); */
-    /* background-size: cover; */
+    background-size: cover;
     /* border: solid rgb(20, 20, 20) 4px; */
     border-radius: 10px;
     display: flex;
+    font-size: larger;
     margin-top: 50px;
     opacity: 75%;
     color: rgb(70, 70, 70);
+}
+.art-button {
+    font-size: 80px;
+    size: larger;
+}
+#painting-button{
+    font-family:
 }
 
 
 
 /* mobile page */
 @media (max-width: 1000px) {
-    .title-logo {
+    /* .title-logo {
         height: 5vh;
         border-width: 2px;
-    }
+    } */
     .title-image {
         height: 4vh;
     }
@@ -366,11 +359,11 @@ nav {
 
 
 
-.modelPic {
+/* .modelPic {
     height:250px;
 }
 
 .modelNane {
     font-size: 15rem;
-}
+} */
 

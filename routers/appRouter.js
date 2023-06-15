@@ -7,8 +7,8 @@ const paintingRouter = require('./paintingRouter')
 
 Router.use('/art', artRouter)
 Router.use('/cart', cartRouter)
-Router.use('/ceramic', ceramicRouter)
-Router.use('/nail', nailRouter)
-Router.use('/painting', paintingRouter)
+Router.use('/ceramics', ceramicRouter)
+Router.use('/nails', nailRouter)
+Router.use('/paintings', paintingRouter)
 
 module.exports = Router
