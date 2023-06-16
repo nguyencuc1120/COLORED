@@ -2,104 +2,75 @@
     margin: 0;
     padding: 0;
 }
-
-/* html {
-    background-image: url('images/PageBackground2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-top: solid rgb(81, 81, 81) 10px;
-    cursor: url('/images/photo-cursor.png');
-} */
-
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(24, 47, 81);
+    margin-top: 5px;
+    font-size: x-large;
+}
+#input-container{
+    
+}
 body {
-    background-image: url('images/bgpj2.jpg');
+    background-image: url('');
     background-size:cover;
     background-repeat: no-repeat;
     /* border-top: solid rgb(81, 81, 81) 10px; */
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: space-between;
     justify-content: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-
 nav {
     display: flex;
-    background-color: rgb(255, 255, 255);
-    /* justify-content: space-between; */
-    /* color: antiquewhite; */
-    /* background-image: linear-gradient(to right,rgb(120, 120, 120),rgba(255, 255, 255, 0)); */
-    /* background-size: cover;
-    opacity: (to right, 40%, 100%); */
-    /* padding: 20px; */
 }
-
-
 .top-buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 } 
-
-
-
-
-/* title */
 .mainTitle {
     display: flex;
     align-items: center;
-    background-color: rgb(255, 255, 255);
-}
-
-/* .title-image {
-    opacity: 80%;
-    padding: 10px;
-    margin-top: 10px;
-} */
-
-/* .title-logo {
-    max-width: 150px;
-    max-width: 150px;
-    opacity: 80%;
-    border: 5px solid rgb(0, 0, 0);
-    
    
-} */
-
-
-
-
-/* searchbar */
-/* .top-buttons{
-    display: flex;
-} */
-
+}
+.title-image {
+    /* opacity: 80%; */
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+}
 .searchBar-container{
     display: flex;
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(17, 0, 149);
     align-self: center;
     /* padding: 17px; */
-    margin-left: 40px;
-    background-size: 50px, 100px;
+    margin-left: 30px;
+    background-size: 100px, 200px;
     /* border: 1px solid white;
     border-radius: 10px; */
     opacity: 80%;
     
 }
-
 #search-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: 1px black solid;
     border-radius: 5px;
     padding: 5px;
+    
 }
-
 #search-button {
     border: solid rgb(98, 98, 98) 4px;
     border-radius: 7px;
     padding: 5px;
 }
-
 #search-button:hover {
     background-color: rgb(175, 0, 0);
     color: rgb(252, 252, 252);
@@ -107,14 +78,8 @@ nav {
     cursor: url('images/photo-cursor.png'), pointer;
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
 }
-
-
-
-
-
-/* shopping cart */
 .cartButton-container {
-    background-color: rgb(120, 120, 120);
+    /* background-color: rgb(120, 120, 120); */
     align-self: center;
     display: flex;
     align-items: center;
@@ -124,25 +89,23 @@ nav {
     border-radius: 10px;
     opacity: 80%;
 }
-
 #cart-button {
     align-self: center;
-    padding: 6px 18px;
+    padding: 12px 36px;
     text-align: center;
-    font-size: 20px;
-    border: solid rgb(98, 98, 98) 4px;
+    font-size: 35px;
+    border: solid rgb(15, 37, 70) 10px;
     border-radius: 7px;
     
 }
-
 #cart-button:hover {
-    background-color: rgb(69, 69, 28);
+    background-color: rgb(3, 32, 99);
     color: rgb(252, 252, 252);
     border-color: white;
     /* cursor: url('images/photo-cursor.png'), pointer; */
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
+    /* box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29); */
+   
 }
-
 .modal {
     display: none;
     position: absolute;
@@ -157,7 +120,6 @@ nav {
     background-color: rgba(0,0,0,0.4); 
     
 }
-
 .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -165,16 +127,14 @@ nav {
     border: 3px solid rgb(98, 98, 98);
     border-radius: 10px;
     width: 80%;
-    color: rgb(98, 98, 98);
+    color: rgb(44, 26, 123);
 }
-
 .close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
-
 .close:hover,
 .close:focus {
   color: #000;
@@ -183,37 +143,40 @@ nav {
   font-size: 32px;
 }
 .paintingimg{
-    max-width:400px
+    max-width:1000px;
+    align-items: center;
+    font-size: larger;
+    margin-bottom: 100px;
 }
 .ceramicimg{
-    max-width:400px
+    max-width:500px;
+    align-items: center;
+    margin-bottom: 100px;
 }
 .nailimg{
-    max-width:300px
+    max-width:500px;
+    align-items: center;
+    margin-bottom: 100px;
 }
-
-
-
-
+p{
+    font-size:xx-large;
+}
 #painting-button{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: flex;
     justify-content: space-around;
-    position: relative;
-    margin-top: 100px;
+    align-self: center;
+    position: relative; */
+    
     /* background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0)); */
     background-size: cover;
-    /* border-top: solid rgb(190, 190, 190) 3px; */
-/* 
-    box-shadow: 8x;
-    border: solid rgb(98, 98, 98) 4px;
-    border-radius: 10px;
-    padding: 60px 220px;
-    margin: 20px;
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
-    transition: padding ease-out 500ms; */
-    /* background-image: url("images/Canon-Logo.jpg"); */
-    background-color: rgb(255, 255, 255);
-    background-position: center;
+    background-color: rgb(240, 96, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    /* background-position: center; */
     background-size: cover;
     /* border-color: rgba(255, 255, 255, 0.804);
     padding: 80px 280px;
@@ -224,9 +187,9 @@ nav {
     display: flex;
     justify-content: space-around;
     position: relative;
-    margin-top: 100px;
+    margin-top: 20px;
     /* background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0)); */
-    background-size: cover;
+    /* background-size: cover; */
     /* border-top: solid rgb(190, 190, 190) 3px; */
 
     /* box-shadow: 8x;
@@ -237,7 +200,9 @@ nav {
     /* box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
     transition: padding ease-out 500ms; */
     /* background-image: url("images/Sony-Logo.jpg"); */
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 96, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     background-position: center;
     background-size: cover; 
     /* border-color: rgba(255, 255, 255, 0.804);
@@ -245,47 +210,30 @@ nav {
     cursor: url('images/photo-cursor.png'), pointer;
     transition: padding ease-out 500ms;  */
 }
-
 #nail-button{
     display: flex;
     justify-content: space-around;
     position: relative;
-    margin-top: 100px;
-    /* background-image: linear-gradient(to bottom, rgb(161, 161, 161),rgba(98, 98, 98, 0)); */
-    /* background-size: cover;
-    border-top: solid rgb(190, 190, 190) 3px; */
-
-    /* box-shadow: 8x;
-    border: solid rgb(98, 98, 98) 4px;
-    border-radius: 10px;
-    padding: 60px 220px;
-    margin: 20px;
-    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.29);
-    transition: padding ease-out 500ms; */
-    /* background-image: url("images/Nikon-Logo.jpg"); */
-    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    background-color: rgb(240, 96, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     background-position: center;
-    /* background-size: cover; */
-    /*border-color: rgba(255, 255, 255, 0.804);
-    padding: 80px 280px;
-    cursor: url('images/photo-cursor.png'), pointer;
-    transition: padding ease-out 500ms; */
+  
+    margin-bottom: 200px;
 }
-
-
-
-
-/* brand stuff */
 .art-info {
-    /* background-image: linear-gradient(to top, white, rgb(98, 98, 98)); */
+    
     background-size: cover;
     /* border: solid rgb(20, 20, 20) 4px; */
     border-radius: 10px;
     display: flex;
-    font-size: larger;
-    margin-top: 50px;
-    opacity: 75%;
-    color: rgb(70, 70, 70);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    margin-top: 100px;
+    /* opacity: 75%; */
+    color: rgb(0, 0, 0);
+    align-items: center;
 }
 .art-button {
     font-size: 80px;
@@ -295,9 +243,6 @@ nav {
     font-family:
 }
 
-
-
-/* mobile page */
 @media (max-width: 1000px) {
     /* .title-logo {
         height: 5vh;
@@ -330,7 +275,7 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: linear-gradient(to right, rgb(120, 120, 120), rgba(255, 255, 255, 0));
+        /* background-image: linear-gradient(to right, rgb(120, 120, 120), rgba(255, 255, 255, 0)); */
         padding: 20px;
         
     }
@@ -358,12 +303,4 @@ nav {
 
 
 
-
-/* .modelPic {
-    height:250px;
-}
-
-.modelNane {
-    font-size: 15rem;
-} */
 

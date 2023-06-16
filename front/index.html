@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/coloredtitle.png">
+    <link rel="icon" href="images/jnlogo.PNG">
     <script src="https://kit.fontawesome.com/80b56c0431.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>COLORED By Jen</title>
@@ -14,29 +14,35 @@
 <body>
     <nav>
         <div class="mainTitle"> 
-              <img class="title-image" src="jnlogo.PNG" alt=""> 
+              <img class="title-image" src="images/jnlogo.PNG" width="3050" height="980"alt=""> 
         </div>
-        <section class="top-buttons">
-              <div class="searchBar-container">
-                    <input id="search-input" type="search">
-                    <button id="search-button">Search</button>
-              </div>
+      </nav>
+      <div class="top-buttons">
+            <div class="searchBar-container">
+                  <input id="search-input" type="search">
+                  <button id="search-button">Search</button>
+            </div>
+           
+            <div class="cartButton-container">
+                  <button id="cart-button">
+                  <i class="fa-solid fa-cart-shopping" style="color: #728b74;"></i></button>
+                  
 
-              <div class="cartButton-container">
-                    <button id="cart-button">
-                    <i class="fa-solid fa-cart-shopping" style="color: #728b74;"></i></button>
-                    
+             </div>
 
-               </div>
-        </section>
-  </nav>
+      </div>
+      <div id="container">
+        <h1>Join Newsletter:</h1>
+        <div id="input-container">
+          <input type="text" id="name-input" placeholder="Enter name">
+          <input type="email" id="email-input" placeholder="Enter email">
+          <button id="add-btn">Add</button>
+        </div>
   <div class="art-info">
-    <h1>Artworks by Jen:</h1>
+    
 </div>
   <div class="art-container"> 
-    <button class="art-button" id="painting-button">Paintings </button>
-    <button class="art-button" id="ceramic-button">Ceramics</button>
-    <button class="art-button" id="nail-button">Nail Art</button>
+    <button class="art-button" id="painting-button">Paintings </button><button class="art-button" id="ceramic-button">Ceramics</button><button class="art-button" id="nail-button">Nail Art</button>
 </div>
 <div id="content"></div>
 <div id="cartModal" class="modal">

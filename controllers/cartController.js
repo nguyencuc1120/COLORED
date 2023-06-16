@@ -1,4 +1,4 @@
-const { Cart, Painting, Art } = require('../models')
+const { Cart, Art } = require('../models')
 
 const findCart = async (req, res) => {
     try {
